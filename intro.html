@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="intro.css">
+    <!-- We can simply use internal css as well
+    body {background-color: powderblue;} -->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!--Responsive Website Design-->
+    <title>Document</title>
+</head>
+<body>
+    <h1 style="color: red;">Heading</h1>
+    <a href="https://www.w3schools.com" target="_blank">Link</a> <!-- target tells where to open the document -->
+    <br>
+    <!-- image tag have src which contain the source alt=if image cannot be displayed then we display alt text -->
+    <img src="w3schools.jpg" alt="w3schools.com" width="104" height="142">
+    <p id="para1" title="Para1">This is the first paragraph</p>
+    <p class="para2" title="Para2">This is the second paragraph</p>
+    <!-- b=bold strong=important text i=italic -->
+    <table class="dir" border="1px solid style="width: 100%;">  <!--we can use css to add border border color, border radius-->
+        <caption>XYZ</caption>
+        <!--Cell padding is the space between cell content and cell edges-->
+        <tr>   <!--Table Rows-->
+            <th>Company</th>  <!--Table headers-->
+            <th>Contact</th>
+            <th>Country</th>
+        </tr>
+        <tr>
+            <td>Prepbytes</td>   <!--Table Data-->
+            <td>Nishant Joon</td>
+            <td>India</td>
+        </tr>
+        <tr>
+            <td>Amazon</td>
+            <td>Nishant Joon</td>
+            <td>India</td>
+        </tr>
+    </table>
+
+    <table border="1px">
+        <tr>
+            <th colspan="2">Name</th>
+            <th>Age</th>
+        </tr>
+        <tr>
+            <td>Nishant</td>
+            <td>Joon</td>
+            <td>22</td>
+        </tr>
+        <tr>
+            <td>Vishal</td>
+            <td>Joon</td>
+            <td>25</td>
+        </tr>
+    </table>
+
+    <ul class="val">
+        <li>Coffee</li>
+        <li>Tea</li>
+        <li>Milk</li>
+    </ul>
+
+    <dl>
+        <dt>Coffee</dt>  <!--Defines the term-->
+        <dd>Black Hot Drink</dd>
+        <dt>Milk</dt>
+        <dd>White Cold Drink</dd>
+    </dl>
+
+
+    <!--Block Level element always starts on new line and browser automatically add
+    some space before and after each element, Takes up the full width available p,div-->
+
+    <!--Inline element does start on new line, only takes up as much width as necessary span-->
+    <!--Classes are used by CSS and javascript to select and access specific elements
+    ClassName is case sensitive-->
+    <!--Id attribute is used to specify a unique id for an HTML element We cannot have more than 
+    one element with same id in HTML document-->
+
+
+
+    <!--Responsive Web Design is about using HTML and CSS to automatically resize, shrink, hide
+    or enlarge a website to make it good for all devices-->
+    <!--Semantic element clearly describes its meaning to both browser and developer
+    Non Semantic tags like div, span tells nothing about there content while tags like
+    form, table and article(self contained content) clearly defines its content.-->
+    <!--nav defines navigation links-->
+
+    <form action=""> <!--Action attribute defines the action to be performed when the form is submitted-->
+        <label for="fname">First Name:</label><br>
+        <input type="text" id="fname" name="fname"><br>
+        <label for="lname">Last Name:</label><br>
+        <input type="text" id="lname" name="lname"><br>
+        <input type="radio" id="html" name="fav_language" value="HTML">
+        <label for="html">HTML</label>
+        <input type="radio" id="css" name="fav_language" value="CSS">
+        <label for="css">CSS</label><br>
+        <input type="radio" id="javascript" name="fav_language" value="JavaScript">
+        <label for="javascript">JavaScript</label>
+        <input type="submit">
+    </form>
+
+    <!--method attribute specifies the HTTP method to be used when submitting the form data-->
+    <!--form data can be used as URL variables or as HTTP post transaction
+    GET:- append form data to URL in name value pairs. Never use GET to send sensitive data
+    length of URL is limited 2048 characters. good for non secure data Result can be bookmarked
+    POST:- Appends the form data inside the body of HTTP request. POST has no size limitations
+    and can be used to send large amount of data. Form submission with POST cannot be bookmarked.
+    -->
+
+    <div >
+        This text is the content of the box. We have added a 50px padding, 20px margin and a 15px 
+        green border. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut 
+        aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit
+        esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident,
+        sunt in culpa qui officia deserunt mollit anim id est laborum.
+    </div>
+    <a id="hello" href="https://www.w3schools.com" target="_blank">This is the link</a>
+</body>
+</html>

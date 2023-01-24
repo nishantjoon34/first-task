@@ -1,0 +1,58 @@
+#para1{
+    color: green;
+    text-align: center;
+    border-width: 2px;        /* on all sides 1px */
+    border-top-style: dashed;
+    border-bottom-style: dotted;
+    border-right-style: solid;
+    border-left-style: groove;
+}
+
+.para2{
+    color: blue;
+    text-align: center;
+    border-style: solid;
+    border-width: 2px 5px;  /* 2px on top and bottome, 5px on sides */
+    /* or we can also mention different border width on all sides separately */
+    /* and same goes with the border color */
+    border-color: red green blue yellow;
+    border-radius: 3px;
+    /* margin are used to create space around elements outside of any defined borders */
+    margin: 2px 3px 4px 5px;
+    /* Padding is used to create space around element's content inside the defined borders */
+    padding-top: 10px;
+    padding-left: 5px;
+    padding-right: 6px;
+    padding-bottom: 8px;
+}
+
+div{
+    width: 300px;
+    border: 15px solid orangered;
+    padding: 30px;
+    margin: 20px;
+    outline-style: solid;
+    text-align: justify;
+    vertical-align: text-bottom;
+    text-decoration-line: underline;
+    text-transform: capitalize;
+    text-shadow: 1px 1px 2px red;  /* horizontal shadow vertical shadow blur effect */
+    font-style: italic;
+    font-weight: bold;
+}
+
+a{
+    color: hotpink;
+}
+
+ul.val{
+    list-style-type: square;
+    list-style-position: inside;
+}
+
+table.dir{
+    height: 150px;
+    vertical-align: bottom;
+    border-collapse: collapse; /* whether a table will collapsed in a single border */
+    
+}
